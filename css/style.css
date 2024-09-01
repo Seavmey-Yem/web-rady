@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+    background: #efeaea;
+}
+ul{
+    display: flex; 
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+}
+.active a{
+    background: #eae2e2;
+    padding: 20px;
+    margin-left: 0;
+}
+.container{
+    text-align: center;
+    font-size: 40px;
+    /* background: #f6f1f1; */
+    /* height: 1000px; */
+
+}
+.container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: #eae2e2;
+    height: 150px;
+    margin-top: 0;
+}
+.cards button{
+    background: white;
+    width: 350px;
+    height: 200px;
+    border: none;
+    border-radius: 8px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.cards{
+    background: #efeaea;  
+    /* height: 90vh; */
+}
+.btn{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.all{
+    background: #eae2e2;
+    display: flex;
+}
+.btn1{
+    height: 350px;
+    width: 1050px;
+    margin-left: 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 40px;
+    
+}
+aside button{
+    background: white;
+    width: 350px;
+    height: 190px;
+    border: none;
+    border-radius: 8px ;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 45px;
+    display: flex;
+    padding: 30px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.about-box p{
+    margin-left: 30px;
+    line-height: 25px;
+}
+.about-box h3{
+    margin-left: 30px;
+}
+.about-box{
+    margin-top: 35px;
+}
+table{
+    border: 1px solid;
+    margin: 20px auto;
+    width: 60%;
+    border-collapse: collapse;
+    overflow: hidden;
+    border-radius: 8px;
+    color: white;
+
+}
+th, td{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 15%;
+}
+.all1 h1{
+    text-align: center;
+}
+tr th:first-child{
+    background: #4d8be8;
+}
+tr td:first-child{
+    background: #4d8be8;
+}
+tr th:nth-child(2){
+    background: #396fcd;
+}
+tr td:nth-child(2){
+    background: #396fcd;
+}
+tr th:nth-child(3){
+    background: #3c61a1;
+}
+tr td:nth-child(3){
+    background: #3c61a1;
+}
+tr th:nth-child(4){
+    background: #0d3986;
+}
+tr td:nth-child(4){
+    background: #0d3986;
+}
